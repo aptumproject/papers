@@ -1,6 +1,6 @@
 | AIP | Title | Author | Type | Category | Status | Created |
 |---|---|---|---|---|---|---|
-| 10 | Resource-based Feelessness | Lucas Nestler | Standards | Monetary Policy | In Progress | 17th of July |
+| 10a | Resource-based Feelessness | Lucas Nestler | Standards | Monetary Policy | In Progress | 17th of July |
 
 Instead of tying every operation to a price, like it is done in the gas system employed in ethereum, a model similar to the one used in EOSIO could be used. This would allow to pay for actual resource usage, creating a more transparant and feeless system, for every actively participating and validating node. 
 Similar to Aptum, those resource credits would not inflate as well, and could be attached to transactions to pay for their usage. When a transaction is executed, those resources would then go from the sending user to the executing user, creating a volatile network. 
