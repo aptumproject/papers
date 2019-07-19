@@ -2,4 +2,10 @@
 |---|---|---|---|---|---|---|
 | 10b | Subnetwork-based Feelessness | Lucas Nestler | Standards | Monetary Policy | In Progress | 17th of July |
 
-In this proposal, we will discuss the usage of sub-networks to allow for feeless transactions. Note that a sub-network is not based on one superior node, such as a masternode or a validator, and also does not have its own consensus. Instead, a sub-network is, in this particular case, a network similar to the lightning payment network as seen in bitcoin. By opening a payment channel, creating payment and then closing it at any arbitrary time, fees can be reduced to two constants, no matter the number of transactions. This is not a feeless network in the literal sense, yet the total fee approaches zero the more transactions are done within one payment channel. It has to be added, that this is an off-chain solution which does not replace the chain. To achieve finality of a transaction or retrieve funds for their usage in a different payment channel, a channel has to be closed, which is visible in the state-chain.
+In this proposal, we will discuss the usage of sub-networks to allow for feeless transactions. Note that a sub-network is not based on one superior node, such as a masternode or a validator, and also does not have its own consensus. Instead, a sub-network is, in this particular case, a network similar to the lightning payment network as seen in bitcoin. 
+
+By opening a payment channel, creating payment and then closing it at any arbitrary time, fees can be reduced to two constants, no matter the number of transactions. 
+
+This is not a feeless network in the literal sense, yet the total fee approaches zero the more transactions are done within one payment channel. 
+
+It has to be added, that this is an off-chain solution which does not replace the chain. To achieve finality of a transaction or retrieve funds for their usage in a different payment channel, a channel has to be closed, which is visible in the state-chain.

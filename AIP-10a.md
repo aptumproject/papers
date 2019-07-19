@@ -3,7 +3,11 @@
 | 10a | Resource-based Feelessness | Lucas Nestler | Standards | Monetary Policy | In Progress | 17th of July |
 
 Instead of tying every operation to a price, like it is done in the gas system employed in ethereum, a model similar to the one used in EOSIO could be used. This would allow to pay for actual resource usage, creating a more transparant and feeless system, for every actively participating and validating node. 
+
 Similar to Aptum, those resource credits would not inflate as well, and could be attached to transactions to pay for their usage. When a transaction is executed, those resources would then go from the sending user to the executing user, creating a volatile network. 
+
 Without the usage of smart contracts, this would be a constant fee for everyone, paid in an off-currency asset, creating the illusion of feelessness. In reality, those token still have to be acquired, which can be done by buying them, or by executing transactions.
+
 To not waste resources and funds, one validator has to be selected in advance. This is allows to make use of the eigentrust algorithm, to randomly select any validator, based on their weight. Weight, a resource acquired solely through trust. When using eigentrust, a malicious node can be slashed immediately from the consensus, while an exterior resource, independent from the state of the network (unlike proof of stake or proof of work), is required to start earning resource-credits. (for more, see AIP-1: Eigentrust)
+
 This also adds another layer to the storage solution proposed in AIP-9, since it would allow to reduce the trust score of anyone who gave a bad response, making it possible to essentially slash out nodes that do not store the contracts or resources (such as the previous state) to validate a transation.
